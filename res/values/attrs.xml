@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义一个slidingdrawer-->
+    <attr name="direction">
+        <enum name="rightToLeft" value="0"/>
+        <enum name="bottomToTop" value="1"/>
+        <enum name="leftToRight" value="2"/>
+        <enum name="topToBottom" value="3"/>
+    </attr>
+    <declare-styleable name="MultiDirectionSlidingDrawer">
+        <attr name="handle" format="reference"/>
+        <attr name="content" format="reference"/>
+        <attr name="direction"/>
+        <attr name="bottomOffset" format="dimension"/>
+        <attr name="topOffset" format="dimension"/>
+        <attr name="allowSingleTap" format="boolean"/>
+        <attr name="animateOnClick" format="boolean"/>
+    </declare-styleable>
+
+    <!--自定义seekbar-->
+    <declare-styleable name="customSeekbar">
+        <attr name="seekHeight" format="dimension"/>
+    </declare-styleable>
+
+    <!--自定义textview-->
+    <declare-styleable name="CustomTextview">
+        <attr name="textString" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="topAndBottomVisibale" format="boolean"/>
+        <attr name="topText" format="string"/>
+        <attr name="topId" format="integer"/>
+        <attr name="bottomText" format="string"/>
+        <attr name="bottomId" format="integer"/>
+    </declare-styleable>
+
+    <!--圆形的ImageView-->
+    <declare-styleable name="RoundImageView">
+        <!--边框的宽度-->
+        <attr name="border_width" format="dimension"/>
+        <!--边框的颜色-->
+        <attr name="border_color" format="color"/>
+    </declare-styleable>
+
+    <!--自定义Textview-->
+    <declare-styleable name="MyTextView">
+        <attr name="tv_outside_type">
+            <enum name="rect" value="1"/>
+            <enum name="round" value="2"/>
+            <enum name="round_rect" value="3"/>
+        </attr>
+        <attr name="tv_outside_width" format="dimension"/>
+        <attr name="tv_outside_color" format="color"/>
+        <attr name="tv_color" format="color"/>
+        <attr name="tv_size" format="dimension"/>
+        <attr name="tv_string" format="string"/>
+    </declare-styleable>
+
+    <!--自定义Storeview-->
+    <declare-styleable name="MyStoreView">
+        <attr name="state" format="integer"></attr>
+        <attr name="name" format="string"></attr>
+        <attr name="address" format="string"></attr>
+        <attr name="id" format="integer"> </attr>
+        <attr name="icon" format="reference"></attr>
+        <attr name="tag" format="boolean"></attr>
+        <attr name="score" format="string"></attr>
+    </declare-styleable>
+
+    <!--自定义状态条-->
+    <declare-styleable name="StatusView">
+        <attr name="type" format="string"/>
+        <attr name="msg" format="string"/>
+    </declare-styleable>
+</resources>

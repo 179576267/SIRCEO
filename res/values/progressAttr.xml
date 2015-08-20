@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="backgroundColor" format="color" />
+    <attr name="progressColor" format="color" />
+    <attr name="strokeWidth"  format="dimension"></attr>
+    <attr name="src" format="reference"></attr>
+    
+   
+     <declare-styleable name="ImageProgressView">
+        <attr name="src" />
+        <attr name="strokeWidth" />
+        <attr name="backgroundColor" />
+         <attr name="progressColor" />
+    </declare-styleable>
+    
+</resources>
